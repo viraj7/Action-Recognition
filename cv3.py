@@ -11,9 +11,8 @@ from sklearn.metrics import confusion_matrix
 
 
 def read_image(path):
-	imlist  = []
-	labels = []
-	c = 0
+	imlist, labels = [], []
+	#c = 0
 	im_path = os.listdir(path)
 	for i in im_path:
 		if i != '.DS_Store':
@@ -165,9 +164,7 @@ def Leave_One_Out(i, subset_size, data, label):
 def eval(arr):
  	TP, TN, FP, FN, sensitivity, specificity = [], [], [], [], [], []
  	for i in range(9):
- 		for j in range(9):
- 			if i == j:
- 				TP.append(arr[i][j])
+ 		TP.append(arr[i][i])
  	sum_cols = arr.sum(axis = 1)
  	sum_rows = arr.sum(axis = 0)
  	for i in range(9):
