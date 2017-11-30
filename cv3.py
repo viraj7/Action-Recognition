@@ -12,7 +12,6 @@ from sklearn.metrics import confusion_matrix
 
 def read_image(path):
 	imlist, labels = [], []
-	#c = 0
 	im_path = os.listdir(path)
 	for i in im_path:
 		if i != '.DS_Store':
