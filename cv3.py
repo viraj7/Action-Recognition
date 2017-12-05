@@ -10,7 +10,7 @@ from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix
 
 
-def read_image(path):
+def read_image(path): # get path and names of all the images
 	imlist, labels = [], []
 	im_path = os.listdir(path)
 	for i in im_path:
