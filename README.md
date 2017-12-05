@@ -22,3 +22,17 @@ Histogram of Gradients
     now with histogram for each block of the image, concatenate the histograms.
     
     
+    
+    
+ SVM classifier from sklearn
+ 
+ training all the data using clf.fit(train_data, train_label)
+ get accuracy using clf.score(test_data, test_label)
+ or 
+ test on untrained data using clf.predict(test_data)
+ and get True positives, False positives, False negatives, and True negatives using confusion matrix
+ 
+ 
+ 
+    
+    
