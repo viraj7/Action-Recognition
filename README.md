@@ -1,7 +1,7 @@
 # CV-PA3
 Assignment 3
 
-Histogram of Gradients
+1)Histogram of Gradients
 
    Applying the following masks to compute gradients:
     [-1, 0, 1], [-1,
@@ -19,12 +19,12 @@ Histogram of Gradients
      if orientation = 20, add the magnitude to second bin.
      if orientation = 10 add 50% to 0 and 50% to 20
      
-    now with histogram for each block of the image, concatenate the histograms.
+   Now with histogram for each block of the image, concatenate the histograms.
     
     
     
     
- SVM classifier from sklearn
+2) SVM classifier from sklearn
  
  training all the data using clf.fit(train_data, train_label)
  get accuracy using clf.score(test_data, test_label)
