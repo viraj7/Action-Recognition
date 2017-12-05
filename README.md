@@ -1,7 +1,7 @@
 # CV-PA3
 Assignment 3
 
-1)Histogram of Gradients
+1) Histogram of Gradients
 
    Applying the following masks to compute gradients:
     [-1, 0, 1], [-1,
