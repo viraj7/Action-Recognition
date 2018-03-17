@@ -1,5 +1,5 @@
-# CV-PA3
-Assignment 3
+# Computer Vision Action Recognition
+Action recognition using Histogram of Gradients and support vector machines 
 
 1) Histogram of Gradients
 
@@ -31,8 +31,3 @@ Assignment 3
  or 
  test on untrained data using clf.predict(test_data)
  and get True positives, False positives, False negatives, and True negatives using confusion matrix
- 
- 
- 
-    
-    
